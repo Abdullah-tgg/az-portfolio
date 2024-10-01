@@ -1,0 +1,290 @@
+[
+    {
+        "id": "1",
+        "title": "Blueprint Business E-Book ",
+        "language": "English",
+        "description": "Exclusively designed for staffing agencies, this comprehensive ebook (PDF) offers strategic insights for achieving excellence in staff recruitment.",
+        "formats": [
+            "PDF",
+            "Editable PDF"
+        ],
+        "deliverables": "Source File + Editable Link Access",
+        "images": [
+            "../../src/assets/img/BlueprintBusinessebook1.png",
+            "../../src/assets/img/BlueprintBusinessebook2.png"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Crypto E-book ",
+        "language": "German",
+        "description": "Tailored for accounting and finance professionals, this comprehensive guide is available in Ebook, Paperback, and Hardcover formats, offering diverse options for knowledge consumption.",
+        "formats": [
+            "Ebook (PDF)",
+            "Paperback",
+            "Hardcover",
+            "Editable PDF"
+        ],
+        "deliverables": "Source File + Editable Link Access",
+        "images": [
+            ".../../src/assets/img/Cryptoebook-1.png",
+            ".../../src/assets/img/Cryptoebook-2.png"
+        ]
+    },
+    {
+        "id": "3",
+        "title": "German E-book Design ",
+        "language": "English",
+        "description": "Unlock the world of cryptocurrency with this insightful handbook, catering to both beginners and enthusiasts alike.",
+        "formats": [
+            "Ebook (PDF)",
+            "Paperback",
+            "Hardcover"
+        ],
+        "deliverables": "Source File + Editable Link Access",
+        "images": [
+            ".../../src/assets/img/GermanEbookDesign1.png",
+            ".../../src/assets/img/GermanEbookDesign2.png"
+        ]
+    },
+    {
+        "id": "4",
+        "title": "Hiring A Nanny Work Book ",
+        "language": "English",
+        "description": "Elevate your recruitment game with this comprehensive guide, designed to enhance hiring processes for businesses of all scales.",
+        "formats": [
+            "Ebook (PDF)"
+        ],
+        "deliverables": "Source File + Editable Link Access",
+        "images": [
+            ".../../src/assets/img/HiringANannyworkbook1.png",
+            ".../../src/assets/img/HiringANannyworkbook2.png"
+        ]
+    },
+    {
+        "id": "5",
+        "title": "Recruitment Agency E-book ",
+        "language": "Hebrew",
+        "description": "Spark creativity and learning with this engaging Kids Stories Workbook designed for young readers.",
+        "formats": [
+            "Ebook (PDF)",
+            "Paperback",
+            "Hardcover",
+            "Editable PDF"
+        ],
+        "deliverables": "Source File + Editable Link Access",
+        "images": [
+            ".../../src/assets/img/RecruitmentAgencyEbook-1.png",
+            ".../../src/assets/img/RecruitmentAgencyEbook-2.png"
+        ]
+    },
+    {
+        "id": "6",
+        "title": "Staffing Agency E-book ",
+        "language": "English",
+        "description": "Facilitate healthy living with this comprehensive guide, offering monthly meal plans and nutrition insights for individuals seeking a balanced lifestyle.",
+        "formats": [
+            "Ebook (PDF)",
+            "Paperback",
+            "Hardcover",
+            "Editable PDF"
+        ],
+        "deliverables": "Source File + Editable Link Access",
+        "images": [
+            ".../../src/assets/img/staffingagencyebook1.png",
+            ".../../src/assets/img/staffingagencyebook2.png"
+        ]
+    },
+    {
+        "id": "7",
+        "title": "The Black Survival Guide E-book ",
+        "language": "English",
+        "description": "Facilitate healthy living with this comprehensive guide, offering monthly meal plans and nutrition insights for individuals seeking a balanced lifestyle.",
+        "formats": [
+            "Ebook (PDF)",
+            "Paperback",
+            "Hardcover",
+            "Editable PDF"
+        ],
+        "deliverables": "Source File + Editable Link Access",
+        "images": [
+            ".../../src/assets/img/TheblacksurvivalGuideebook1.png",
+            ".../../src/assets/img/TheblacksurvivalGuideebook2.png"
+        ]
+    },
+    {
+        "id": "8",
+        "title": "Selfcare Work Book ",
+        "language": "English",
+        "description": "Facilitate healthy living with this comprehensive guide, offering monthly meal plans and nutrition insights for individuals seeking a balanced lifestyle.",
+        "formats": [
+            "Ebook (PDF)",
+            "Paperback",
+            "Hardcover",
+            "Editable PDF"
+        ],
+        "deliverables": "Source File + Editable Link Access",
+        "images": [
+            ".../../src/assets/img/selfcareworkbook.png"
+        ]
+    },
+    {
+        "id": "9",
+        "title": "Mastering Communication ",
+        "language": "English",
+        "description": "This eBook is aimed at individuals seeking to improve their communication skills. It offers practical tips, exercises, and strategies for effective verbal and nonverbal communication.",
+        "deliverables": "Source File + Editable Link Access",
+        "formats": [
+            "Ebook (PDF)",
+            "Paperback",
+            "Hardcover",
+            "Editable PDF"
+        ],
+        "images": [
+            ".../../src/assets/img/MasteringCommunications-AComprehensiveHacktoEffectiveStrategyDevelopment.png"
+
+        ]
+    },{
+        "id": "10",
+        "title": "Career Readiness and Transition Workshop Participant Guide ",
+        "language": "English",
+        "description": "This workbook is designed for individuals and businesses looking to develop a strong brand identity. It offers exercises, templates, and guidance on creating a memorable and consistent brand.",
+        "deliverables": "Source File + Editable Link Access",
+        "formats": [
+            "Ebook (PDF)",
+            "Paperback",
+            "Hardcover",
+            "Editable PDF"
+        ],
+        "images": [
+            ".../../src/assets/img/CareerReadinessandTransitionWorkshop-ParticipantGuide.png"
+        ]
+    },{
+        "id": "11",
+        "title": "Checklist for 3-step strategy of database ",
+        "language": "English",
+        "description": "This workbook is designed for Checklist for 3-step strategy of database.",
+        "deliverables": "Source File + Editable Link Access",
+        "formats": [
+            "Ebook (PDF)",
+            "Paperback",
+            "Hardcover",
+            "Editable PDF"
+        ],
+        "images": [
+            ".../../src/assets/img/Checklistfor3stepstrategyofdatabase.png"
+        ]
+    },{
+        "id": "12",
+        "title": "Farmer's Market Brochures ",
+        "language": "English",
+        "description": "Brochures for Farmer's Market Brochures.",
+        "deliverables": "Source File + Editable Link Access",
+        "formats": [
+            "Ebook (PDF)",
+            "Paperback",
+            "Hardcover",
+            "Editable PDF"
+        ],
+        "images": [
+            ".../../src/assets/img/FarmersMarketBrochures.png"
+        ]
+    },
+    {
+        "id": "13",
+        "title": "Kids Cards ",
+        "language": "English",
+        "description": "Kids Cards for Children.",
+        "deliverables": "Source File + Editable Link Access",
+        "formats": [
+            "Ebook (PDF)",
+            "Paperback",
+            "Hardcover",
+            "Editable PDF"
+        ],
+        "images": [
+            ".../../src/assets/img/Kidscards-1.png",
+            ".../../src/assets/img/Kidscards-2.png",
+            ".../../src/assets/img/Kidscards-3.png",
+            ".../../src/assets/img/Kidscards-4.png"
+        ]
+    },
+    {
+        "id": "14",
+        "title": "Pitch Deck Presentation Design Content Marketing Module ",
+        "language": "English",
+        "description": "Unlock the potential of business credit with this comprehensive guide, providing essential insights for entrepreneurs and business owners.",
+        "formats": [
+            "Ebook (PDF)"
+        ],
+        "deliverables": "Source File + Editable Link Access",
+        "images": [
+            ".../../src/assets/img/PitchDeck-PresentationDesign-ContentMarketing-Module-1.png",
+            ".../../src/assets/img/PitchDeck-PresentationDesign-ContentMarketing-Module-2.png",
+            ".../../src/assets/img/PitchDeck-PresentationDesign-ContentMarketing-Module-3.png",
+            ".../../src/assets/img/PitchDeck-PresentationDesign-ContentMarketing-Module-4.png"
+        ]
+    },
+    {
+        "id": "15",
+        "title": "Monthly Diet Plan Design ",
+        "language": "English",
+        "description": "Empower individuals with insights and strategies in this guide, focusing on navigating challenges and building a path to success.",
+        "formats": [
+            "Ebook (PDF)"
+        ],
+        "deliverables": "Source File + Editable Link Access",
+        "thumbnail": "/src/assets/mockups/empowerment-blueprint.png",
+        "images": [
+            ".../../src/assets/img/Monthlydietplandesign-1.png",
+            ".../../src/assets/img/Monthlydietplandesign-2.png"
+        ]
+    },{
+        "id": "16",
+        "title": "EXP Realty - LeadMagnet  ",
+        "language": "English",
+        "description": "E-Book for EXP Realty.",
+        "deliverables": "Source File + Editable Link Access",
+        "formats": [
+            "Ebook (PDF)",
+            "Paperback",
+            "Hardcover",
+            "Editable PDF"
+        ],
+        "images": [
+            ".../../src/assets/img/exprealty-LeadMagnet.png"
+        ]
+    },
+    {
+        "id": "17",
+        "title": "Cleaning Company Checklists  ",
+        "language": "English",
+        "description": "Check list for 719 Cleaning Company.",
+        "deliverables": "Source File + Editable Link Access",
+        "formats": [
+            "Ebook (PDF)",
+            "Paperback",
+            "Hardcover",
+            "Editable PDF"
+        ],
+        "images": [
+            ".../../src/assets/img/CleaningCompanyChecklists.png"
+        ]
+    },
+    {
+        "id": "18",
+        "title": "Planners for Ballpallaya University  ",
+        "language": "English",
+        "description": "Check List Design for Ballpallaya University.",
+        "deliverables": "Source File + Editable Link Access",
+        "formats": [
+            "Ebook (PDF)",
+            "Paperback",
+            "Hardcover",
+            "Editable PDF"
+        ],
+        "images": [
+            ".../../src/assets/img/PlannersforBallpallayaUniversity-mockup.png"
+        ]
+    }
+]

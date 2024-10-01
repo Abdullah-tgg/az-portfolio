@@ -1,0 +1,120 @@
+[
+    {
+        "id": "1",
+        "title": "Algorithm Advantage Book ",
+        "language": "English",
+        "description": "This eBook is targeted towards data scientists, machine learning engineers, and tech enthusiasts interested in understanding the underlying principles and applications of algorithms. It provides in-depth explanations, practical examples, and case studies to help readers master algorithm design and implementation.",
+        "deliverables": "Kindle eBook",
+        "images": [
+            "../../src/assets/img/AlgorithmAdvantageebook-leadmagnet.png"
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Amazon Front And Back Cover",
+        "language": "English",
+        "description": "These covers Are visually appealing and accurately represent the content of the book. The design should be consistent with the overall theme and target audience of the book.",
+        "deliverables": "Printbook covers (front and back)",
+        "images": [
+            "../../src/assets/img/AmazonFrontAndBackCover-kdp-1.png",
+            "../../src/assets/img/AmazonFrontAndBackCover-kdp-2.png",
+            "../../src/assets/img/AmazonFrontAndBackCover-kdp-3.png",
+            "../../src/assets/img/AmazonFrontAndBackCover-kdp-4.png",
+            "../../src/assets/img/AmazonFrontAndBackCover-kdp-5.png",
+            "../../src/assets/img/AmazonFrontAndBackCover-kdp-6.png"
+        ]
+    },
+    {
+        "id": "3",
+        "title": "Blue Print Business Design ",
+        "language": "English",
+        "description": "This eBook is designed for aspiring entrepreneurs and small business owners. It offers guidance on creating a visually appealing and effective business design, including branding, logo design, and website development.",
+        "deliverables": "Kindle E-Book",
+        "images": [
+            "../../src/assets/img/Blueprintebookdesign.png"
+        ]
+    },{
+        "id": "4",
+        "title": "Boccia for Beginners ",
+        "language": "English",
+        "description": "This book is targeted towards individuals interested in learning the sport of boccia. It provides a comprehensive introduction to the rules, techniques, and strategies of the game.",
+        "deliverables": "Print Books ",
+        "images": [
+            "../../src/assets/img/BocciaforBeginners.png"
+        ]
+    },{
+        "id": "5",
+        "title": "Couple Roles Clarity (Kindle) ",
+        "language": "English",
+        "description": "This eBook is aimed at couples seeking to improve their relationship dynamics. It offers insights into defining and understanding different roles within a partnership, promoting better communication and collaboration..",
+        "deliverables": "Kindle E-Book",
+        "images": [
+            "../../src/assets/img/CouplesRoleClarityE-BOOK.png"
+        ]
+    },{
+        "id": "6",
+        "title": "Dog Training Workbook for Humans (Printbook) ",
+        "language": "English",
+        "description": "This workbook is designed for dog owners who want to train their pets effectively. It provides practical exercises, tips, and strategies to help owners build a positive and harmonious relationship with their dogs..",
+        "deliverables": "Print book",
+        "images": [
+            "../../src/assets/img/DogTrainingWorkbookforHumans.png"
+        ]
+    },{
+        "id": "7",
+        "title": "Gemstone Inventory Sheet (Printbook) ",
+        "language": "English",
+        "description": "This inventory sheet is a valuable tool for gemstone collectors and dealers. It provides a structured format for recording information about each gemstone, such as its type, size, weight, and origin..",
+        "deliverables": "Print book",
+        "images": [
+            "../../src/assets/img/GemstoneInventorySheet-1.png",
+            "../../src/assets/img/GemstoneInventorySheet-2.png"
+        ]
+    },{
+        "id": "8",
+        "title": "Guide to Denial for a National Interest Waiver (Kindle) ",
+        "language": "English",
+        "description": "This eBook is targeted towards individuals seeking a national interest waiver for immigration purposes. It provides guidance on the application process, documentation requirements, and strategies for a successful outcome..",
+        "deliverables": "Kindle E-Book",
+        "images": [
+            "../../src/assets/img/GuidetoDenialforaNationalInterestWaiver.png"
+        ]
+    },{
+        "id": "9",
+        "title": "La Belle Roue (Kindle) ",
+        "language": "English",
+        "description": "This eBook is likely a novel or short story collection. The content will revolve around the theme of La Belle Roue, which could refer to a beautiful wheel, a person, or a concept.",
+        "deliverables": "Kindle E-Book",
+        "images": [
+            "../../src/assets/img/LaBelleRoue-ebook.png"
+        ]
+    },{
+        "id": "10",
+        "title": "Mastering Communication (Kindle) ",
+        "language": "English",
+        "description": "This eBook is aimed at individuals seeking to improve their communication skills. It offers practical tips, exercises, and strategies for effective verbal and nonverbal communication.",
+        "deliverables": "Kindle E-Book",
+        "images": [
+            "../../src/assets/img/MasteringCommunications-AComprehensiveHacktoEffectiveStrategyDevelopment.png"
+        ]
+    },{
+        "id": "11",
+        "title": "Set the Tone (Kindle) ",
+        "language": "English",
+        "description": "This eBook is likely a guide on creating a positive and productive work environment. It may cover topics such as leadership, team building, and conflict resolution.",
+        "deliverables": "Kindle E-Book",
+        "images": [
+            "../../src/assets/img/Setthetoneebook.png"
+        ]
+    },{
+        "id": "12",
+        "title": "Your Branding Workbook (Printbook) ",
+        "language": "English",
+        "description": "This workbook is designed for individuals and businesses looking to develop a strong brand identity. It offers exercises, templates, and guidance on creating a memorable and consistent brand.",
+        
+        "deliverables": "Print book",
+        "images": [
+            "../../src/assets/img/Yourbrandingworkbook.png"
+        ]
+    }
+]
