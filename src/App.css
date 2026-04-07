@@ -12805,6 +12805,13 @@ html {
 
 .masthead .masthead-avatar {
     width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    background: rgba(255, 255, 255, 0.06);
+    border: 4px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.3);
 }
 
 @media (min-width: 992px) {
@@ -12908,7 +12915,7 @@ html {
 
 .testimonials {
     background-color: #000;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./assets/img/testimonial-bg.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./assets/images/backgrounds/testimonial-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
