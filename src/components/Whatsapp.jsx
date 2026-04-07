@@ -1,6 +1,4 @@
-import React from 'react'
-
-import whatsappIcon from '../assets/icons/icon-whatsapp.png'
+import whatsappIcon from '../assets/images/icons/icon-whatsapp.png'
 
 const Whatsapp = () => {
     return (

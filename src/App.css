@@ -12788,7 +12788,7 @@ html {
 
 .masthead-bg {
     background-color: var(--bs-primary);
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0% 100%), url('./assets/heros/hero-bg.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0% 100%), url('./assets/images/backgrounds/hero-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -12942,3 +12942,295 @@ html {
 
 
 /* ebook card: end */
+
+
+/* ----------------------------------------------------------------------- */
+/* Recents carousel — clean, no dark backdrop                              */
+/* ----------------------------------------------------------------------- */
+
+.recents-carousel {
+    background: transparent;
+    padding: 4rem 0 5rem;
+}
+
+.recents-carousel .container {
+    margin-bottom: 2.5rem;
+}
+
+.recents-carousel .swiper {
+    padding: 1rem 1.5rem 1.5rem;
+    overflow: visible;
+}
+
+.recents-carousel .recent-card {
+    overflow: hidden;
+    border-radius: 14px;
+    transition: transform 0.45s cubic-bezier(0.2, 0.8, 0.2, 1),
+                box-shadow 0.45s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.recents-carousel .recent-card img {
+    display: block;
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.recents-carousel .recent-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 30px rgba(26, 188, 156, 0.18);
+}
+
+.recents-carousel .recent-card:hover img {
+    transform: scale(1.05);
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* Designer credit chip                                                    */
+/* ----------------------------------------------------------------------- */
+
+.designer-credit {
+    padding: 1rem 1.5rem;
+    border-radius: 999px;
+    background: rgba(26, 188, 156, 0.08);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* Reveal-on-scroll                                                        */
+/* IntersectionObserver flips `.is-visible` when an element enters view.   */
+/* ----------------------------------------------------------------------- */
+
+.reveal {
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 0.7s cubic-bezier(0.2, 0.8, 0.2, 1),
+                transform 0.7s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/*
+ * Once the reveal animation has played out, drop the transform entirely
+ * (instead of leaving it at `transform: none`). This is important: any
+ * non-`none` transform — even an animating one — turns the element into a
+ * containing block for `position: fixed` descendants, which traps Bootstrap
+ * modals under their own backdrop. By unsetting transform on `.is-visible`
+ * we make sure no stale stacking context remains.
+ */
+.reveal.is-visible {
+    opacity: 1;
+    transform: unset;
+}
+
+.reveal.reveal-left {
+    transform: translateX(-40px);
+}
+
+.reveal.reveal-right {
+    transform: translateX(40px);
+}
+
+.reveal.reveal-zoom {
+    transform: scale(0.94);
+}
+
+.reveal.reveal-left.is-visible,
+.reveal.reveal-right.is-visible,
+.reveal.reveal-zoom.is-visible {
+    transform: none;
+}
+
+/* Stagger child reveals when a parent is `.reveal-stagger` */
+.reveal-stagger > * {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.6s cubic-bezier(0.2, 0.8, 0.2, 1),
+                transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.reveal-stagger.is-visible > * {
+    opacity: 1;
+    transform: none;
+}
+
+.reveal-stagger.is-visible > *:nth-child(1)  { transition-delay: 0.05s; }
+.reveal-stagger.is-visible > *:nth-child(2)  { transition-delay: 0.15s; }
+.reveal-stagger.is-visible > *:nth-child(3)  { transition-delay: 0.25s; }
+.reveal-stagger.is-visible > *:nth-child(4)  { transition-delay: 0.35s; }
+.reveal-stagger.is-visible > *:nth-child(5)  { transition-delay: 0.45s; }
+.reveal-stagger.is-visible > *:nth-child(6)  { transition-delay: 0.55s; }
+.reveal-stagger.is-visible > *:nth-child(7)  { transition-delay: 0.65s; }
+.reveal-stagger.is-visible > *:nth-child(8)  { transition-delay: 0.75s; }
+
+
+/* ----------------------------------------------------------------------- */
+/* Hero entrance animation                                                 */
+/* ----------------------------------------------------------------------- */
+
+@keyframes nx-fade-up {
+    from { opacity: 0; transform: translateY(28px); }
+    to   { opacity: 1; transform: none; }
+}
+
+@keyframes nx-fade-down {
+    from { opacity: 0; transform: translateY(-18px); }
+    to   { opacity: 1; transform: none; }
+}
+
+@keyframes nx-pop-in {
+    0%   { opacity: 0; transform: scale(0.85); }
+    60%  { opacity: 1; transform: scale(1.04); }
+    100% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes nx-shimmer {
+    0%   { background-position: -200% 0; }
+    100% { background-position: 200% 0; }
+}
+
+@keyframes nx-float {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(-8px); }
+}
+
+.masthead .masthead-avatar {
+    animation: nx-pop-in 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+.masthead .masthead-heading {
+    animation: nx-fade-up 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 0.15s both;
+}
+
+.masthead .divider-custom {
+    animation: nx-fade-up 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 0.3s both;
+}
+
+.masthead .masthead-subheading {
+    animation: nx-fade-up 0.8s cubic-bezier(0.2, 0.8, 0.2, 1) 0.45s both;
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* Header / nav animation                                                  */
+/* ----------------------------------------------------------------------- */
+
+#mainNav {
+    animation: nx-fade-down 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+    transition: padding 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#mainNav .navbar-brand img {
+    transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+#mainNav .navbar-brand:hover img {
+    transform: rotate(-6deg) scale(1.06);
+}
+
+#mainNav .nav-link {
+    position: relative;
+    transition: color 0.25s ease;
+}
+
+/*
+ * Teal hover underline. Exclude `.dropdown-toggle` so Bootstrap's built-in
+ * caret (which also uses ::after) keeps rendering normally on the Design tab.
+ */
+#mainNav .nav-link:not(.dropdown-toggle)::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0.6rem;
+    width: 0;
+    height: 2px;
+    background: #1abc9c;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+#mainNav .nav-link:not(.dropdown-toggle):hover::after {
+    width: 60%;
+    left: 20%;
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* Portfolio / service card hover                                          */
+/* ----------------------------------------------------------------------- */
+
+.portfolio .portfolio-item {
+    transition: transform 0.45s cubic-bezier(0.2, 0.8, 0.2, 1),
+                box-shadow 0.45s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.portfolio .portfolio-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(26, 188, 156, 0.22);
+}
+
+.portfolio .portfolio-item img {
+    transition: transform 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.portfolio .portfolio-item:hover img {
+    transform: scale(1.06);
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* Buttons                                                                 */
+/* ----------------------------------------------------------------------- */
+
+.btn {
+    transition: transform 0.25s ease, box-shadow 0.25s ease,
+                background-color 0.25s ease, color 0.25s ease,
+                border-color 0.25s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn-xl:hover {
+    box-shadow: 0 10px 24px rgba(26, 188, 156, 0.25);
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* Whatsapp floating button                                                */
+/* ----------------------------------------------------------------------- */
+
+.floating-whatsapp-btn {
+    animation: nx-float 3.2s ease-in-out infinite;
+}
+
+.floating-whatsapp-btn a {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.floating-whatsapp-btn a:hover {
+    transform: scale(1.12) rotate(-4deg);
+}
+
+
+/* ----------------------------------------------------------------------- */
+/* Respect reduced motion                                                  */
+/* ----------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .reveal,
+    .reveal-stagger > * {
+        opacity: 1 !important;
+        transform: none !important;
+    }
+}

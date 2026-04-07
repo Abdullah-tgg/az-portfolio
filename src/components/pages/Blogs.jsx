@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 
-import Hero from '../Hero';
+import Hero from '../Hero.jsx';
 
 const Blogs = () => {
     const heroContent = {

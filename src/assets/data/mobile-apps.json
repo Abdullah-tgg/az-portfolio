@@ -1,0 +1,80 @@
+[
+  {
+    "id": "nsuna",
+    "title": "Nsuna",
+    "tagline": "On-demand services marketplace",
+    "description": "Nsuna is an on-demand services marketplace that connects customers with trusted local service providers. Customers can browse, book and pay for services in a few taps, while providers manage their schedule, track jobs and grow their business from a single dashboard.",
+    "platforms": ["iOS", "Android"],
+    "stack": ["React Native", "TypeScript", "Node.js", "Firebase"],
+    "role": "Mobile Lead",
+    "year": "2024",
+    "links": {
+      "playStore": "https://play.google.com/store/apps/details?id=com.nsuna.app",
+      "appStore": "https://apps.apple.com/app/nsuna/id0000000000"
+    },
+    "thumbnail": "placeholder.png",
+    "images": [
+      "placeholder.png"
+    ]
+  },
+  {
+    "id": "souqna",
+    "title": "Souqna",
+    "tagline": "Social shopping, simplified",
+    "description": "Souqna is a social commerce app that lets sellers spin up a storefront in minutes and shoppers discover products through curated feeds, live drops and reviews from people they trust. Built for fast, mobile-first browsing across the MENA region.",
+    "platforms": ["iOS", "Android"],
+    "stack": ["React Native", "TypeScript", "Stripe", "Firebase"],
+    "role": "Mobile Lead",
+    "year": "2024",
+    "links": {
+      "playStore": "https://play.google.com/store/apps/details?id=com.souqna.app",
+      "appStore": "https://apps.apple.com/app/souqna/id0000000000"
+    },
+    "thumbnail": "placeholder.png",
+    "images": [
+      "placeholder.png"
+    ]
+  },
+  {
+    "id": "pizzeria-limone",
+    "title": "Pizzeria Limone",
+    "tagline": "Order-ahead app for a neighbourhood pizzeria",
+    "description": "A branded ordering app for Pizzeria Limone, with a custom menu builder, order-ahead pickup, loyalty rewards and integrated card payments. Designed to feel as warm and personal as the restaurant itself.",
+    "platforms": ["iOS", "Android"],
+    "stack": ["React Native", "TypeScript", "Stripe"],
+    "role": "Full-stack mobile developer",
+    "year": "2024",
+    "thumbnail": "placeholder.png",
+    "images": [
+      "placeholder.png"
+    ]
+  },
+  {
+    "id": "betsie",
+    "title": "Betsie",
+    "tagline": "Smart sports betting companion",
+    "description": "Betsie is a sports betting companion app that surfaces real-time odds, tracks a user's bet slip across providers, and suggests data-driven picks. Focused on a clean, mobile-first experience that turns a noisy data set into a simple decision.",
+    "platforms": ["iOS", "Android"],
+    "stack": ["React Native", "TypeScript", "WebSocket"],
+    "role": "Mobile developer",
+    "year": "2025",
+    "thumbnail": "placeholder.png",
+    "images": [
+      "placeholder.png"
+    ]
+  },
+  {
+    "id": "gymproja",
+    "title": "GymProJa",
+    "tagline": "Personal training, in your pocket",
+    "description": "GymProJa is a fitness coaching app that pairs members with personal trainers, schedules sessions, tracks workouts and logs progress with charts. Trainers get a coaching dashboard while members get a clean, motivating workout flow.",
+    "platforms": ["iOS", "Android"],
+    "stack": ["React Native", "TypeScript", "Firebase"],
+    "role": "Mobile developer",
+    "year": "2025",
+    "thumbnail": "placeholder.png",
+    "images": [
+      "placeholder.png"
+    ]
+  }
+]
