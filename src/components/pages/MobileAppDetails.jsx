@@ -40,7 +40,7 @@ const MobileAppDetails = () => {
             <div className="row mt-4">
                 <div className="col-md-6 mb-4">
                     {app.images && app.images.length > 0 ? (
-                        <Carousel showThumbs={false} showStatus={false} infiniteLoop>
+                        <Carousel showThumbs={false} showStatus={false} infiniteLoop autoPlay transitionTime={500}>
                             {app.images.map((image, index) => (
                                 <div key={index}>
                                     <img

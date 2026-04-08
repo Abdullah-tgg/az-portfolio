@@ -43,7 +43,7 @@ const MobileAppsPage = () => {
                                             </div>
                                         </div>
                                         <img
-                                            src={resolveImage(app.thumbnail || app.images?.[0])}
+                                            src={resolveImage(app.thumbnail)}
                                             alt={app.title}
                                             className="img-fluid rounded ebook-img w-100"
                                             style={{ objectFit: 'cover', height: '280px', background: '#f5f5f7' }}

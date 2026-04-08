@@ -9,12 +9,16 @@
     "role": "Mobile Lead",
     "year": "2024",
     "links": {
-      "playStore": "https://play.google.com/store/apps/details?id=com.nsuna.app",
-      "appStore": "https://apps.apple.com/app/nsuna/id0000000000"
+      "playStore": "https://play.google.com/store/apps/details?id=com.nsuna.apps.customer",
+      "appStore": "https://apps.apple.com/za/app/nsuna/id6701998736"
     },
-    "thumbnail": "placeholder.png",
+    "thumbnail": "../../src/assets/images/apps/nsuna/nsunaThumbnail.png",
     "images": [
-      "placeholder.png"
+      "../../src/assets/images/apps/nsuna/n1.png",
+      "../../src/assets/images/apps/nsuna/n2.png",
+      "../../src/assets/images/apps/nsuna/n3.png",
+      "../../src/assets/images/apps/nsuna/n4.png",
+      "../../src/assets/images/apps/nsuna/n5.png"
     ]
   },
   {
@@ -27,8 +31,8 @@
     "role": "Mobile Lead",
     "year": "2024",
     "links": {
-      "playStore": "https://play.google.com/store/apps/details?id=com.souqna.app",
-      "appStore": "https://apps.apple.com/app/souqna/id0000000000"
+      "playStore": "https://play.google.com/store/apps/details?id=com.fourm.souqna",
+      "appStore": "https://apps.apple.com/us/app/souqna-app-تطبيق-سوقنا/id6753893826"
     },
     "thumbnail": "placeholder.png",
     "images": [
@@ -44,9 +48,13 @@
     "stack": ["React Native", "TypeScript", "Stripe"],
     "role": "Full-stack mobile developer",
     "year": "2024",
-    "thumbnail": "placeholder.png",
+    "thumbnail": "../../src/assets/images/apps/pizzeria/thumbnail.png",
     "images": [
-      "placeholder.png"
+      "../../src/assets/images/apps/pizzeria/p1.png",
+      "../../src/assets/images/apps/pizzeria/p2.png",
+      "../../src/assets/images/apps/pizzeria/p3.png",
+      "../../src/assets/images/apps/pizzeria/p4.png",
+      "../../src/assets/images/apps/pizzeria/p5.png"
     ]
   },
   {
@@ -72,9 +80,13 @@
     "stack": ["React Native", "TypeScript", "Firebase"],
     "role": "Mobile developer",
     "year": "2025",
-    "thumbnail": "placeholder.png",
+    "thumbnail": "../../src/assets/images/apps/gymproja/gymThumbnail.png",
     "images": [
-      "placeholder.png"
+      "../../src/assets/images/apps/gymproja/g1.png",
+      "../../src/assets/images/apps/gymproja/g2.png",
+      "../../src/assets/images/apps/gymproja/g3.png",
+      "../../src/assets/images/apps/gymproja/g4.png",
+      "../../src/assets/images/apps/gymproja/g5.png"
     ]
   }
 ]
