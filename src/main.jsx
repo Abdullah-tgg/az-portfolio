@@ -14,7 +14,7 @@ import './App.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename="/az-portfolio"> {/* Add basename */}
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </React.StrictMode>
