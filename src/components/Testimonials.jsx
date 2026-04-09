@@ -1,19 +1,13 @@
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// import required modules
 import { Autoplay } from 'swiper/modules'
-
-// Import Swiper styles
 import 'swiper/css';
-
-import Testimonails from "../assets/Testimonials.json";
+import Testimonails from "../assets/data/testimonials.json";
 
 const Testimonials = () => {
-    const country = 'BE';
+    // const country = 'BE';
     return (
         <>
-            <section className='testimonials py-5'>
+            <section className='testimonials py-5 reveal'>
                 <div className="container py-md-5">
                     <p className="h1 text-center text-white mb-5 text-uppercase">What Our Clients Say?</p>
                     <Swiper spaceBetween={30}

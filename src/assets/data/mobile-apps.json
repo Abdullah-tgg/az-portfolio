@@ -1,0 +1,100 @@
+[
+  {
+    "id": "nsuna",
+    "title": "Nsuna",
+    "tagline": "On-demand services marketplace",
+    "description": "Nsuna is an on-demand services marketplace that connects customers with trusted local service providers. Customers can browse, book and pay for services in a few taps, while providers manage their schedule, track jobs and grow their business from a single dashboard.",
+    "platforms": ["iOS", "Android"],
+    "stack": ["React Native", "TypeScript", "Node.js", "Firebase"],
+    "role": "Mobile Lead",
+    "year": "2025 - Still maintaining it",
+    "links": {
+      "playStore": "https://play.google.com/store/apps/details?id=com.nsuna.apps.customer",
+      "appStore": "https://apps.apple.com/za/app/nsuna/id6701998736"
+    },
+    "thumbnail": "../../src/assets/images/apps/nsuna/nsunaThumbnail.png",
+    "images": [
+      "../../src/assets/images/apps/nsuna/n1.png",
+      "../../src/assets/images/apps/nsuna/n2.png",
+      "../../src/assets/images/apps/nsuna/n3.png",
+      "../../src/assets/images/apps/nsuna/n4.png",
+      "../../src/assets/images/apps/nsuna/n5.png"
+    ]
+  },
+  {
+    "id": "souqna",
+    "title": "Souqna",
+    "tagline": "Social shopping, simplified",
+    "description": "Souqna is a social commerce app that lets sellers spin up a storefront in minutes and shoppers discover products through curated feeds, live drops and reviews from people they trust. Built for fast, mobile-first browsing across the MENA region.",
+    "platforms": ["iOS", "Android"],
+    "stack": ["React Native", "TypeScript", "Stripe", "Firebase"],
+    "role": "Mobile Lead",
+    "year": "2025",
+    "links": {
+      "playStore": "https://play.google.com/store/apps/details?id=com.fourm.souqna",
+      "appStore": "https://apps.apple.com/us/app/souqna-app-تطبيق-سوقنا/id6753893826"
+    },
+    "thumbnail": "../../src/assets/images/apps/souqna/souqnaThumbnail.png",
+    "images": [
+      "../../src/assets/images/apps/souqna/s1.png",
+      "../../src/assets/images/apps/souqna/s2.png",
+      "../../src/assets/images/apps/souqna/s3.png",
+      "../../src/assets/images/apps/souqna/s4.png"
+    ]
+  },
+  {
+    "id": "pizzeria-limone",
+    "title": "Pizzeria Limone",
+    "tagline": "Order-ahead app for a neighbourhood pizzeria",
+    "description": "A branded ordering app for Pizzeria Limone, with a custom menu builder, order-ahead pickup, loyalty rewards, google maps integration and integrated card payments. Designed to feel as warm and personal as the restaurant itself.",
+    "platforms": ["iOS", "Android"],
+    "stack": ["React Native", "TypeScript", "Stripe"],
+    "role": "Full-stack mobile developer",
+    "year": "2024",
+    "thumbnail": "../../src/assets/images/apps/pizzeria/pizzeriaThumbnail.png",
+    "images": [
+      "../../src/assets/images/apps/pizzeria/p1.png",
+      "../../src/assets/images/apps/pizzeria/p2.png",
+      "../../src/assets/images/apps/pizzeria/p3.png",
+      "../../src/assets/images/apps/pizzeria/p4.png",
+      "../../src/assets/images/apps/pizzeria/p5.png",
+      "../../src/assets/images/apps/pizzeria/p6.png"
+    ]
+  },
+  {
+    "id": "betsie",
+    "title": "Betsie",
+    "tagline": "Smart sports betting companion",
+    "description": "Betsie is a sports betting companion app that surfaces real-time odds, tracks a user's bet slip across providers, and suggests data-driven picks. Focused on a clean, mobile-first experience that turns a noisy data set into a simple decision.",
+    "platforms": ["iOS", "Android"],
+    "stack": ["React Native", "TypeScript", "WebSocket"],
+    "role": "Mobile developer",
+    "year": "2025",
+    "thumbnail": "../../src/assets/images/apps/betsie/betsieThumbnail.png",
+    "images": [
+      "../../src/assets/images/apps/betsie/b1.png",
+      "../../src/assets/images/apps/betsie/b2.png",
+      "../../src/assets/images/apps/betsie/b3.png",
+      "../../src/assets/images/apps/betsie/b4.png",
+      "../../src/assets/images/apps/betsie/b5.png"
+    ]
+  },
+  {
+    "id": "gymproja",
+    "title": "GymProJa",
+    "tagline": "Personal training, in your pocket",
+    "description": "GymProJa is a fitness coaching app that pairs members with personal trainers, schedules sessions, tracks workouts and logs progress with charts, AI chatbot and online video session integrations. Trainers get a coaching dashboard while members get a clean, motivating workout flow.",
+    "platforms": ["iOS", "Android"],
+    "stack": ["React Native", "TypeScript", "Firebase"],
+    "role": "Mobile developer",
+    "year": "2024",
+    "thumbnail": "../../src/assets/images/apps/gymproja/gymThumbnail.png",
+    "images": [
+      "../../src/assets/images/apps/gymproja/g1.png",
+      "../../src/assets/images/apps/gymproja/g2.png",
+      "../../src/assets/images/apps/gymproja/g3.png",
+      "../../src/assets/images/apps/gymproja/g4.png",
+      "../../src/assets/images/apps/gymproja/g5.png"
+    ]
+  }
+]

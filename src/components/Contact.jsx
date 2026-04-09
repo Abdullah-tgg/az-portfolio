@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState} from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
@@ -18,6 +18,7 @@ const Contact = () => {
             reply_to: userEmail,
             from_email: userEmail,
         }, 'UbImSamVMKxAGqaY6').then((result) => {
+            console.log("result", result);
             const alert = document.querySelector('.alert-success');
             alert.classList.remove('d-none');
             alert.classList.add('d-block');
@@ -32,6 +33,7 @@ const Contact = () => {
             setUserEmail('');
             setUserMessage('');
         }, (error) => {
+            console.log(error);
             // do something with error
         });
     };
@@ -49,7 +51,7 @@ const Contact = () => {
     }
 
     return (
-        <section className="page-section" id="contact">
+        <section className="page-section reveal" id="contact">
             <div className="container">
                 <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
                 <div className="divider-custom">

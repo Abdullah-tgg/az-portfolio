@@ -1,30 +1,27 @@
-import React from 'react'
+import nexmaxLogo from '../assets/images/brand/nexmax-logo.png'
 
-import abeeraZafar from '../assets/img/abeera-zafar-02.png'
-
-const Hero = ({ content }) => {
+const Hero = ({ content, image }) => {
     const { title, subtitle } = content;
+    const heroImage = image || nexmaxLogo;
 
-    return (
-        <>
-            <header className="masthead masthead-bg text-white text-center">
-                <div className="container d-flex align-items-center flex-column">
+    return (<>
+        <header className="masthead masthead-bg text-white text-center">
+            <div className="container d-flex align-items-center flex-column">
 
-                    <img className="masthead-avatar mb-5" src={abeeraZafar} alt="abeera zafar's image" />
+                <img className="masthead-avatar mb-5" src={heroImage} alt={title} />
 
-                    <h1 className="masthead-heading text-uppercase mb-0">{title}</h1>
+                <h1 className="masthead-heading text-uppercase mb-0">{title}</h1>
 
-                    <div className="divider-custom divider-light">
-                        <div className="divider-custom-line"></div>
-                        <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
-                        <div className="divider-custom-line"></div>
-                    </div>
-
-                    <p className="masthead-subheading font-weight-light mb-0">{subtitle}</p>
+                <div className="divider-custom divider-light">
+                    <div className="divider-custom-line"></div>
+                    <div className="divider-custom-icon"><i className="fas fa-star"></i></div>
+                    <div className="divider-custom-line"></div>
                 </div>
-            </header>
-        </>
-    )
+
+                <p className="masthead-subheading font-weight-light mb-0">{subtitle}</p>
+            </div>
+        </header>
+    </>)
 }
 
 export default Hero

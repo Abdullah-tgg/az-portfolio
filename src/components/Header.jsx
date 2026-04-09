@@ -1,11 +1,10 @@
 import { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import nexmaxLogo from '../assets/images/brand/nexmax-logo.png';
 
 const Header = () => {
     const location = useLocation();
     const path = location.pathname;
-
-    console.log(path)
 
     // Navbar shrink function
     const navbarShrink = () => {
@@ -71,7 +70,10 @@ const Header = () => {
     return (
         <header className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
             <div className="container">
-                <Link className="navbar-brand" to="/">Abeera Zafar</Link>
+                <Link className="navbar-brand d-flex align-items-center gap-2" to="/">
+                    <img src={nexmaxLogo} alt="Nexmax" style={{ height: '82px' }} />
+                    <span>Nexmax</span>
+                </Link>
                 <button className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu {" "}
                     <i className="fas fa-bars"></i>
@@ -80,13 +82,30 @@ const Header = () => {
                     <ul className="navbar-nav ms-auto">
                         {path && path === '/' && (
                             <>
-                                <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3" href="#portfolio">Portfolio</a></li>
+                                <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3" href="#portfolio">Work</a></li>
                                 <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3" href="#about">About</a></li>
                                 <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3" href="#contact">Contact</a></li>
                             </>
                         )}
-                        <li className="nav-item mx-0 mx-lg-1"><Link className="nav-link py-3 px-0 px-lg-3" to="/ebooks-designing">Ebooks</Link></li>
-                        <li className="nav-item mx-0 mx-lg-1"><Link className="nav-link py-3 px-0 px-lg-3" to="/kdp-designs">KDP Books</Link></li>
+                        <li className="nav-item dropdown mx-0 mx-lg-1">
+                            <a
+                                className="nav-link dropdown-toggle py-3 px-0 px-lg-3"
+                                href="#"
+                                id="designDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Design
+                            </a>
+                            <ul className="dropdown-menu" aria-labelledby="designDropdown">
+                                <li><Link className="dropdown-item" to="/ebooks-designing">Ebooks &amp; Lead Magnets</Link></li>
+                                <li><Link className="dropdown-item" to="/kdp-designs">KDP Book Covers</Link></li>
+                            </ul>
+                        </li>
+                        <li className="nav-item mx-0 mx-lg-1">
+                            <Link className="nav-link py-3 px-0 px-lg-3" to="/mobile-apps">Mobile Apps</Link>
+                        </li>
                         <li className="nav-item mx-0 mx-lg-1"><Link className="nav-link py-3 px-0 px-lg-3" to="/blogs">Blogs</Link></li>
                     </ul>
                 </div>

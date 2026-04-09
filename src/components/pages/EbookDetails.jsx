@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom"
-import projects from '../../assets/Ebooks.json'
+import projects from '../../assets/data/ebooks.json'
+import { resolveImage } from '../../assets/imageMap.js'
 
 const EbookDetails = () => {
 
@@ -12,7 +13,7 @@ const EbookDetails = () => {
             <div className="container py-5 my-5">
                 <section className="py-5 my-5">
                     <div className="text-center mb-5">
-                        <img className="img-fluid w-50" src={project.thumbnail} style={{
+                        <img className="img-fluid w-50" src={resolveImage(project.thumbnail)} style={{
                             height: '350px',
                             objectFit: 'cover',
                             objectPosition: 'center',
@@ -27,7 +28,7 @@ const EbookDetails = () => {
                     {
                         project.images && project.images >= 1 &&
                         project.images.map((image, index) => (
-                            <img className="img-fluid" key={index} src={image} alt={`Image ${index + 1}`} />
+                            <img className="img-fluid" key={index} src={resolveImage(image)} alt={`Image ${index + 1}`} />
                         ))}
 
                 </section>

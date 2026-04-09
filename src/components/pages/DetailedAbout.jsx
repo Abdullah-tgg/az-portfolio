@@ -1,11 +1,12 @@
-import React from 'react';
-import Hero from '../Hero';
+import Hero from '../Hero.jsx';
 import { Link } from 'react-router-dom';
+import abdullahImg from '../../assets/images/team/abdullah.png';
+import abeeraImg from '../../assets/images/team/abeera-zafar.png';
 
 const DetailedAbout = () => {
     const heroContent = {
-        title: 'About',
-        subtitle: 'Abeera Zafar, a 𝐋𝐞𝐚𝐝 𝐌𝐚𝐠𝐧𝐞𝐭 𝐃𝐞𝐬𝐢𝐠𝐧 𝐒𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐬𝐭.',
+        title: 'About Nexmax',
+        subtitle: 'A small studio shipping polished design and software.',
     };
     return (
         <>
@@ -13,48 +14,78 @@ const DetailedAbout = () => {
             <div className="container my-5">
                 <div className="row">
                     <div className="col-12">
-                        <p className="lead text-left">
-                            I'm Abeera Zafar, a <strong>𝐋𝐞𝐚𝐝 𝐌𝐚𝐠𝐧𝐞𝐭 𝐃𝐞𝐬𝐢𝐠𝐧 𝐒𝐩𝐞𝐜𝐢𝐚𝐥𝐢𝐬𝐭</strong>. I help businesses like yours create irresistible lead magnets that capture high-quality leads, speak directly to your ideal customer's pain points, and boost your sales pipeline.
+                        <p className="lead">
+                            Nexmax is a two-person studio that helps founders, publishers and small
+                            teams turn rough ideas into things people actually use. We work across
+                            two crafts under one roof: <strong>design</strong> (lead-magnet ebooks,
+                            KDP book covers, brand collateral) and <strong>mobile development</strong>
+                            {' '}(production iOS and Android apps).
                         </p>
-                        <h3 className="text-left mt-5 mb-4">𝐇𝐞𝐫𝐞'𝐬 𝐰𝐡𝐚𝐭 𝐈 𝐜𝐚𝐧 𝐝𝐨 𝐟𝐨𝐫 𝐲𝐨𝐮:</h3>
-                        <ul className="list-unstyled text-left mx-auto">
-                            <li className='lead'>✅  Uncover your ideal customer's deepest desires and frustrations.</li>
-                            <li className='lead'>✅  Craft a targeted lead magnet that offers a solution they can't resist.</li>
-                            <li className='lead'>✅  Design a high-converting lead magnet that effortlessly captures leads.</li>
-                        </ul>
-                        <p className="lead text-left my-5">
-                            Ready to finally generate the leads you deserve? Connect with me today and let's discuss your lead generation goals!
-                        </p>
-                        <p className="lead text-left">
-                            Want to learn more about me? Then keep reading...
+                        <p className="lead">
+                            One brand, two crafts, zero hand-offs — when a project needs both
+                            screens and pages, you talk to the same people through the whole thing.
                         </p>
                     </div>
+                </div>
 
-                    <div className="col-12">
-                        <h3 className="text-left mt-5 mb-4">About My Work</h3>
-                        <p className="lead text-left">
-                            I am a content designer who designs "Marketing content". I specifically design the ebooks (used for marketing or awareness of your business and in workshops), workbooks, checklists (for pre-check or post-check of the services you're offering), fillable and interactive PDFs (Forms, Worksheets, etc.), book covers, and printables (Flyers, brochures).
+                <div className="row mt-5">
+                    <div className="col-md-6 mb-5">
+                        <div className="text-center mb-3">
+                            <img
+                                src={abeeraImg}
+                                alt="Abeera Zafar"
+                                className="rounded-circle"
+                                style={{ width: '160px', height: '160px', objectFit: 'cover' }}
+                            />
+                        </div>
+                        <h3 className="text-center mb-2">Abeera Zafar</h3>
+                        <p className="text-center text-secondary"><em>Lead Designer</em></p>
+                        <p>
+                            Abeera is a content designer specialising in marketing collateral —
+                            ebooks, workbooks, lead magnets, KDP book covers, fillable PDFs,
+                            flyers and brochures. She has shipped 200+ lead magnets for 50+
+                            businesses and treats every page as a conversion surface.
                         </p>
-                        <h3 className="text-left mt-5 mb-4">My Services:</h3>
-                        <ul className="list-unstyled text-left">
-                            <li className='lead'>✅ Lead Magnet Designing (Ebooks, Workbooks, Pitch Decks, Banners, Brochures, Flyers, Magazines, Infographics, Visual Templates, Interactive PDFs, Slide Decks, Printables, and more)</li>
-                            <li className='lead'>✅ Social Media Content Creation and Design (For Facebook, LinkedIn, Instagram, Pinterest)</li>
-                            <li className='lead'>✅ Content Writing (Rewriting, Proofreading, Editing, Reviewing, Summarizing)</li>
+                        <ul className="list-unstyled">
+                            <li>✅ Lead-magnet ebook design</li>
+                            <li>✅ KDP & Kindle book covers</li>
+                            <li>✅ Workbooks, checklists, interactive PDFs</li>
+                            <li>✅ Flyers, brochures, social-media templates</li>
                         </ul>
-
-                        <p className="lead text-left my-5">
-                            I have had the privilege of designing almost 200+ Lead Magnets. I've worked with 50+ businesses and generated significant revenue just by selling my passion for designing these Lead Magnets.
-                        </p>
-                        <p className="text-center">
-                            Need Help?
-                            <div className="text-center mt-4">
-                                <Link className="btn btn-xl btn-outline-dark" to="https://wa.link/jczjvd">
-                                    Let's Chat
-                                    <i className="fas fa-arrow-right ms-2"></i>
-                                </Link>
-                            </div>
-                        </p>
                     </div>
+
+                    <div className="col-md-6 mb-5">
+                        <div className="text-center mb-3">
+                            <img
+                                src={abdullahImg}
+                                alt="Abdullah"
+                                className="rounded-circle"
+                                style={{ width: '160px', height: '160px', objectFit: 'cover' }}
+                            />
+                        </div>
+                        <h3 className="text-center mb-2">Abdullah</h3>
+                        <p className="text-center text-secondary"><em>Mobile Developer</em></p>
+                        <p>
+                            Abdullah builds production mobile apps end to end — React Native on
+                            iOS and Android, with the backend, payments and store-submission work
+                            included. Recent shipped work includes Nsuna and Souqna, plus
+                            in-progress builds for Pizzeria Limone, Betsie and GymProJa.
+                        </p>
+                        <ul className="list-unstyled">
+                            <li>✅ React Native (iOS &amp; Android)</li>
+                            <li>✅ TypeScript, Node.js, Firebase</li>
+                            <li>✅ Stripe &amp; in-app payments</li>
+                            <li>✅ App Store &amp; Play Store releases</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div className="text-center my-5">
+                    <p className="lead mb-3">Have a project in mind?</p>
+                    <Link className="btn btn-xl btn-outline-dark" to="/#contact">
+                        Let&apos;s Chat
+                        <i className="fas fa-arrow-right ms-2"></i>
+                    </Link>
                 </div>
             </div>
         </>
